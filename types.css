@@ -1,0 +1,89 @@
+[data-type=grass] {
+    --primary: #7bc96f;
+    --secondary: #fff;
+}
+
+[data-type=fire] {
+    --primary: #f08030;
+    --secondary: #fff;
+}
+
+[data-type=water] {
+    --primary: #6890f0;
+    --secondary: #fff;
+}
+
+[data-type=electric] {
+    --primary: #f8d030;
+    --secondary: #fff;
+}
+
+[data-type=ice] {
+    --primary: #98d8d8;
+    --secondary: #fff;
+}
+
+[data-type=fighting] {
+    --primary: #c03028;
+    --secondary: #fff;
+}
+
+[data-type=poison] {
+    --primary: #a040a0;
+    --secondary: #fff;
+}
+
+[data-type=ground] {
+    --primary: #e0c068;
+    --secondary: #fff;
+}
+
+[data-type=flying] {
+    --primary: #a890f0;
+    --secondary: #fff;
+}
+
+[data-type=psychic] {
+    --primary: #f85888;
+    --secondary: #fff;
+}
+
+[data-type=bug] {
+    --primary: #a8b820;
+    --secondary: #fff;
+}
+
+[data-type=rock] {
+    --primary: #b8a038;
+    --secondary: #fff;
+}
+
+[data-type=ghost] {
+    --primary: #705898;
+    --secondary: #fff;
+}
+
+[data-type=dragon] {
+    --primary: #7038f8;
+    --secondary: #fff;
+}
+
+[data-type=dark] {
+    --primary: #705848;
+    --secondary: #fff;
+}
+
+[data-type=steel] {
+    --primary: #b8b8d0;
+    --secondary: #fff;
+}
+
+[data-type=fairy] {
+    --primary: #ee99ac;
+    --secondary: #fff;
+}
+
+[data-type=unknown] {
+    --primary: #68a090;
+    --secondary: #fff;
+}

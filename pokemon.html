@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon View - Carter's Pokedex</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="types.css" />
+        <link rel="stylesheet" href="pokemon.css" />
+        <script src="params.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1 id="title"><span id="name"></span> <span id="id"></span></h1>
+            <div id="grid">
+                <div id="image-box" class="card">
+                    <img
+                        id="image"
+                        src="/loading.gif"
+                        alt="Loading pokemon image"
+                    />
+                    <h2 id="image-description">Loading</h2>
+                </div>
+                <div id="info" class="card">
+                    <div id="info-content">
+                        <div id="types"></div>
+                        <br />
+                        <h2>Stats</h2>
+                        <table id="stats"></table>
+                    </div>
+                </div>
+                <div id="description-box" class="card">
+                    <div id="description">
+                        <h2>Description</h2>
+                        <p id="description-text"></p>
+                    </div>
+                </div>
+                <div id="moves-box" class="card">
+                    <div id="moves">
+                        <h2>Moves</h2>
+                        <ul id="move-list"></ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="pokemon.js"></script>
+    </body>
+</html>
